@@ -1,0 +1,78 @@
+﻿
+h1, h2, h3, h4, h5, p, a {
+    font-family: 'Droid Serif', serif;
+}
+
+.navLi, .footLink {
+    color: black;
+}
+
+#mainNav {
+    padding-top: 2em;
+    background-color:white;
+    opacity:0.9;
+}
+
+.navLi {
+    font-size: 1.3em;
+}
+
+#footerList {
+    list-style: none;
+    overflow: hidden;
+    position: center;
+}
+
+.footerListItem {
+    display: block;
+    float: left;
+    color: #768ab9;
+    padding-left: 2em;
+}
+
+#ddButton {
+    background-color:white;
+    border-color:black;
+}
+
+.navIcon {
+    background-color:black;
+}
+
+#topLogoLink {
+    padding-top:0;
+    margin-top:0;
+}
+
+#topLogoImg{
+    max-width: 10em;
+}
+
+#navContainer {
+     margin-left:0px;
+}
+
+#bodyContainer {
+    border:none; 
+    padding:0px;
+    position:absolute;
+    top:0px;
+    width:100%;
+}
+
+#devText {
+    color:rebeccapurple;
+}
+
+h1 {
+  font-size: 0;
+  width: 1px;
+  height: 1px;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  clip: rect(1px,1px,1px,1px);
+}

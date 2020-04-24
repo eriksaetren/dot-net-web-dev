@@ -1,0 +1,123 @@
+﻿@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/slick")
+@Styles.Render("~/Content/slick")
+
+@{
+    ViewBag.Title = "Wedding and Special Event Planning";
+    ViewBag.Description = "PlanSimply by CJ is here to help ease the stress of wedding planning. Services include hourly consulting, DIY classes, and full service planning. Book CJ to plan your dream wedding today!";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    
+</style>
+
+<link rel="stylesheet" href="~/Content/HomeStyles.css" />
+
+<div id="bannerContainer" class="container-fluid">
+    <div class="row bannerRow">
+        <div class="col-md-12">
+            <h2 id="bannerText" class="text-capitalize headerText">
+                Plan Simply with CJ<br />
+                Wedding and Special Event Planning
+            </h2>
+        </div>
+    </div>
+</div>
+
+<br />
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+            <h2 id="visionText" class="text-center">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <br />
+                &ldquo;CJ was amazing. She went above and beyond&rdquo;
+                <br />
+                <i class="author">-John N. (Groom) - 11/11/2017</i>
+            </h2>
+        </div>
+        <div class="col-xs-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+<br />
+
+@*<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <a href="https://www.youtube.com/watch?v=8YXVpA3X8JY" target="_blank">
+                    <video class="thumbnail" autoplay loop muted>
+                        <source src="~/Content/Video/styled-shoot-video.mp4" type="video/mp4"/>
+                        Your browser does not support HTML5 video.
+                    </video>
+                </a>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>*@
+<div class="container-fluid slick-container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="instaText">
+                <h3>Keep up to date on instagram<i id="instaIcon" class="fa fa-instagram" aria-hidden="true"></i></h3>
+            </div>
+            <div class="slick-main">
+
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+<div class="container-fluid" id="tripanel">
+    <div class="row">
+        <div class="col-md-4">
+            <a href="/wedding/services" class="picLinks">
+                <img class="img-responsive thumbnail hover-shadow" id="triImg" src="~/Content/Images/StyledShoot/styled29.jpg" alt="wedding planning services" />
+                <h3 class="caption text-center" id="linkText1">Explore Services</h3>
+            </a>
+            <br />
+        </div>
+        <div class="col-md-4">
+            <a href="/wedding/gallery" class="picLinks">
+                <img class="img-responsive thumbnail hover-shadow" id="triImg" src="~/Content/Images/Wedding Pics/Thumbnails/cj_erik__websize-626.jpg" alt="View Gallery" />
+                <h3 class="caption text-center" id="linkText3">Get Inspired</h3>
+            </a>
+            <br />
+        </div>
+        <div class="col-md-4">
+            <a href="/wedding/contact" class="picLinks">
+                <img class="img-responsive thumbnail hover-shadow" id="triImg" src="~/Content/Images/StyledShoot/IMG_7322.jpg" alt="Learn More About Us"/>
+                <h3 class="caption text-center" id="linkText2">Meet CJ</h3>
+            </a>
+            <br />
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        GetInstagramPhotos();
+    });
+</script>
+
+
+
+
+
+
+

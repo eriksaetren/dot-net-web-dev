@@ -1,0 +1,126 @@
+﻿@{
+    Layout = "~/Views/Shared/_SecondaryLayout.cshtml";
+    ViewBag.Title = "Upcoming Wedding Planning Series";
+    ViewBag.Description = "Learn the skills you need to figure out the complicated process of planning a wedding. CJ will help you, and it won't break your budget";
+}
+
+@*
+    //<script>
+          function initMap() {
+              var creativeTribe = { lat: 32.231610, lng: -110.966863 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 14,
+              center: creativeTribe
+            });
+            var marker = new google.maps.Marker({
+              position: creativeTribe,
+              map: map
+            });
+          }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2GXkOD4oG5WV2KzmnLN0KySqBlamJ80k&callback=initMap">
+    </script>//
+*@
+
+<link rel="stylesheet" href="~/Content/UpcomingStyles.css" />
+
+<br />
+<br />
+<br />
+<br />
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6">
+            <img class="img img-responsive flowerBorder" src="~/Content/Images/ClipArt/Flowers3002-copy - Copy.png" />
+        </div>
+        <div class="col-xs-6">
+            <img class="img img-responsive flowerBorder" src="~/Content/Images/ClipArt/Flowers3002-copy.png" />
+        </div>
+    </div>
+    <h2 id="seriesH1" class="text-center seriesHeader headerText">Upcoming Series</h2>
+  
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+            <h4 class="text-center">
+                These classes are designed to put you in control of the planning process. PlanSimply will give you the tools and 
+                advice needed to plan our own DIY wedding. Starting with the inspiration and ending with the day of details, we will
+                 cover the whole process. Each class will feature a take home or in class activity that will jump start the planning process. 
+            </h4>
+            
+            <hr />
+            <h2 class="text-center">Class 1 - Inspiration</h2>
+        
+            <h4 class="text-center">Workshop Day: Vision Board
+            <br /> Take Home: Priorities Worksheet</h4>
+            <hr />
+            <h2 class="text-center">Class 2 - Timeline and Budget</h2>
+           
+            <h4 class="text-center">Take Home: Excel budget worksheet</h4>
+            <hr />
+            <h2 class="text-center">Class 3 - People (Vendors and Guests)</h2>
+         
+            <h4 class="text-center">Take Home: Questions for vendors</h4>
+            <hr />
+            <h2 class="text-center">Class 4 - DIY Decor</h2>
+          
+            <h4 class="text-center">Workshop Day: Bring anything you need a second opinion on</h4>
+            <hr />
+            <h2 class="text-center">Class 5 - The Big Day: The Small Details</h2>
+            
+            <h4 class="text-center">Take Home: Emergency Day-Of Kit</h4>
+            <hr />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-5"></div>
+        <div class="col-xs-2">
+            <span id="paypalSpan">
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="25K8TXYEQR2N8">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </span>
+        </div>
+        <div class="col-xs-5"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-8">
+            <h3 id="specialsH3" class="text-center">
+                <a href="/wedding/contact">Contact us</a>  to find out about upcoming dates
+                <br />
+                <a href="/wedding/services"> Check out </a>  our complete services
+            </h3>
+
+        </div>
+        <div class="col-xs-2"></div>
+
+    </div>
+
+    <div class="row">
+        
+        <div class="col-xs-6">
+            <img class="img img-responsive flowerBorder" src="~/Content/Images/ClipArt/Flowers3002-copy - Copy.png" />
+        </div>
+        <div class="col-xs-6">
+            <img class="img img-responsive flowerBorder" src="~/Content/Images/ClipArt/Flowers3002-copy.png" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+            <!--<div id="map"></div>-->
+        </div>
+        <div class="col-xs-1"></div>
+    </div>
+    <br />
+    
+
+</div>

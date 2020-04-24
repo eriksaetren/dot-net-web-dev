@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.0.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.0.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A2C6B2E4-C87B-4195-881A-7B82E6771F3A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlanSimplyByCJ</RootNamespace>
+    <AssemblyName>PlanSimplyByCJ</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>50833</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Azure.AppService.ApiApps.Service, Version=0.9.64.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Azure.AppService.ApiApps.Service.0.9.64\lib\net45\Microsoft.Azure.AppService.ApiApps.Service.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=2.8.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.WindowsAzure.SDK.2.9.0\lib\Microsoft.WindowsAzure.Diagnostics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.WindowsAzure.SDK.2.9.0\lib\Microsoft.WindowsAzure.ServiceRuntime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swashbuckle.Core.5.5.3\lib\net40\Swashbuckle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsAzureEventSource, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.WindowsAzure.SDK.2.9.0\lib\WindowsAzureEventSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsAzureTelemetryEvents, Version=2.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.WindowsAzure.SDK.2.9.0\lib\WindowsAzureTelemetryEvents.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionFilters\ViewNameAttribute.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DIY_WeddingController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\WeddingController.cs" />
+    <Compile Include="FileHandler\CSVHandler.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\EmailForm.cs" />
+    <Compile Include="Models\FileName.cs" />
+    <Compile Include="Models\GalleryModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RouteHandler\HyphenatedRouteHandler.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="android-chrome-192x192.png" />
+    <Content Include="android-chrome-256x256.png" />
+    <Content Include="apple-touch-icon.png" />
+    <Content Include="browserconfig.xml" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CSV docs\beachpartyCaptions.txt" />
+    <Content Include="Content\CSV docs\farmerWeddingCaptions.txt" />
+    <Content Include="Content\CSV docs\launchCaptions.txt" />
+    <Content Include="Content\CSV docs\sonoraSouthwestCaptions.txt" />
+    <Content Include="Content\CSV docs\weddingCaptions.txt" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\Images\Beach Party\IMG_8091.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8092.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8098.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8100.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8116.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8128.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8131.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8134.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8160.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8165.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8169.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8172.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8175.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8179.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8195.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8196.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8210.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8212.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8218.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8242.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8254.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8272.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8344.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8346.jpg" />
+    <Content Include="Content\Images\Beach Party\IMG_8360.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8091.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8092.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8098.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8100.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8116.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8128.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8131.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8134.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8160.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8165.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8169.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8172.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8175.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8179.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8195.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8196.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8210.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8212.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8218.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8242.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8254.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8272.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8344.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8346.jpg" />
+    <Content Include="Content\Images\Beach Party\Thumbnails\IMG_8360.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0002-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0004-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0016-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0027-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0036-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0038-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0052-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0075-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0088-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\20170605_Je T%27aime_0192-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0002-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0004-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0016-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0027-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0036-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0038-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0052-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0075-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0088-X3.jpg" />
+    <Content Include="Content\Images\Behind the Scenes\Thumbnails\20170605_Je T%27aime_0192-X3.jpg" />
+    <Content Include="Content\Images\ClipArt\Flowers3005_Hz1.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3005_Hz2.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3026.png" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7092.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7104.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7108.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7124.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7126.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7128.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7135.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7136.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7142.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7147.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7149.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7150.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7151.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7169.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7490.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\IMG_7494.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7092.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7104.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7108.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7124.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7126.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7128.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7135.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7136.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7142.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7147.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7149.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7150.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7151.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7169.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7490.jpg" />
+    <Content Include="Content\Images\Downtown Summer Engagement\Thumbnails\IMG_7494.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-cake-14.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\z_farmer-the-couple-32.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-the-couple-50.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-wedding-ceremony-32.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-wedding-details-104.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-wedding-details-109.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Farmer-Wedding-details-30.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Farmer-Wedding-details-34.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-wedding-details-41.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\z_farmer-wedding-details-56.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-wedding-details-59.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-wedding-details-64.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-wedding-details-70.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\z_farmer-wedding-details-76.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Farmer-Wedding-details-8.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\z_farmer-wedding-details-87.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-wedding-details-91.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\farmer-wedding-details-94.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\z_julie-and-andrew-toasts-45.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\julie-andrew-sparkler-exit-1.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\julie-andrew-sparkler-exit-2.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-cake-14.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\z_farmer-the-couple-32.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-the-couple-50.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-wedding-ceremony-32.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-wedding-details-104.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-wedding-details-109.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\Farmer-Wedding-details-30.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\Farmer-Wedding-details-34.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-wedding-details-41.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\z_farmer-wedding-details-56.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-wedding-details-59.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-wedding-details-64.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-wedding-details-70.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\z_farmer-wedding-details-76.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\Farmer-Wedding-details-8.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\z_farmer-wedding-details-87.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-wedding-details-91.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\farmer-wedding-details-94.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\z_julie-and-andrew-toasts-45.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\julie-andrew-sparkler-exit-1.jpg" />
+    <Content Include="Content\Images\Farmer Wedding\Thumbnails\julie-andrew-sparkler-exit-2.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7064.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7067.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7069.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7072.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7077.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7090.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7095.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7099.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7171.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7180.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7183.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7185.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7191.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7196.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7198.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7199.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7227.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7229.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7265.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7267.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7268.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7276.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7279.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7282.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7291.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7295.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7298.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7300.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7301.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7304.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7308.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7309.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7313.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7319.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7322.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7323.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7327-Edit.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7328.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7337.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7339.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7346.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7362.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7381.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7386.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7407.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7408.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7410.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7411.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7416.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7418.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7421.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7428.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7436.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7440.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7441.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7445.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7460.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7463.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7465.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7472.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7484.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7499.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7510.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7518.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7524.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7527.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7541.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7554.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7558.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7559.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7564.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7566-Edit.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7587.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\IMG_7592.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7064.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7067.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7069.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7072.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7077.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7090.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7095.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7099.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7171.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7180.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7183.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7185.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7191.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7196.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7198.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7199.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7227.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7229.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7265.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7267.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7268.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7276.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7279.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7282.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7291.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7295.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7298.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7300.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7301.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7304.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7308.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7309.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7313.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7319.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7322.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7323.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7327-Edit.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7328.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7337.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7339.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7346.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7362.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7381.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7386.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7407.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7408.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7410.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7411.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7416.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7418.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7421.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7428.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7436.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7440.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7441.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7445.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7460.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7463.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7465.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7472.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7484.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7499.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7510.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7518.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7524.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7527.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7541.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7554.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7558.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7559.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7564.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7566-Edit.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7587.jpg" />
+    <Content Include="Content\Images\Je Amie Styled Shoot\Thumbnails\IMG_7592.jpg" />
+    <Content Include="Content\Images\Launch Party\zIMG_7940.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7942.jpg" />
+    <Content Include="Content\Images\Launch Party\Banners\IMG_7943.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7945.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7948.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7951.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7952.jpg" />
+    <Content Include="Content\Images\Launch Party\zIMG_7956.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7962.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7974.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7982.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7984.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_7995.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_8014.jpg" />
+    <Content Include="Content\Images\Launch Party\IMG_8015.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\zIMG_7940.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7942.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7945.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7948.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7951.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7952.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\zIMG_7956.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7962.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7974.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7982.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7984.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_7995.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_8014.jpg" />
+    <Content Include="Content\Images\Launch Party\Thumbnails\IMG_8015.jpg" />
+    <Content Include="Content\Images\Logo\Logo1_WEB.png" />
+    <Content Include="Content\Images\Logo\Logo2_WEB.png" />
+    <Content Include="Content\Images\Mobile\styled33.jpg" />
+    <Content Include="Content\Images\Profile\cj_profile-25.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\groomandblooms.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\z_bridalparty.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\z_brideandgroom.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\z_cake.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\ceremony.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\z_donkeyandmaid.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\escorttiles.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\z_groomandblooms.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\headtable.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\z_invitation.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\invitationcloseup.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\rescueflats.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\z_bridalcouple.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\z_bridalparty.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\z_brideandgroom.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\z_cake.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\ceremony.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\z_donkeyandmaid.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\escorttiles.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\z_groomandblooms.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\headtable.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\z_invitation.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\invitationcloseup.jpg" />
+    <Content Include="Content\Images\Sonora Southwest\Thumbnails\rescueflats.jpg" />
+    <Content Include="Content\Images\StyledShoot\IMG_7322.jpg" />
+    <Content Include="Content\Images\StyledShoot\styled29.jpg" />
+    <Content Include="Content\Images\StyledShoot\styled33.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-277.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-278.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-626.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-648.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Mobile\cj_erik__websize-648.jpg" />
+    <Content Include="Content\LayoutStyle.css" />
+    <Content Include="Content\SecondaryLayoutStyles.css" />
+    <Content Include="Content\slick-customizer.css" />
+    <Content Include="Content\UpcomingStyles.css" />
+    <Content Include="Content\GalleryStyles.css" />
+    <Content Include="Content\AboutStyles.css" />
+    <Content Include="Content\HomeStyles.css" />
+    <Content Include="Content\Images\Banners\lynghalstinden-mot-leknes.jpg" />
+    <Content Include="Content\Images\Banners\banner-image-main.jpeg" />
+    <Content Include="Content\Images\ClipArt\Flowers3001.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3002-copy - Copy.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3002-copy.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3002.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3003.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3004.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3005.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3006.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3007.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3008.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3009.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3010.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3011.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3012.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3013.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3014.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3015.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3016.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3017.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3018 %281%29.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3018.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3019.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3020.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3021.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3022.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3023.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3024.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3025.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3027.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3028.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3029.png" />
+    <Content Include="Content\Images\ClipArt\Flowers3030.png" />
+    <Content Include="Content\Images\Front Page\hairstyle-decoration-hair-wedding.jpg" />
+    <Content Include="Content\Images\Front Page\hand-tie-dress-wedding.jpg" />
+    <Content Include="Content\Images\Front Page\long_ring.jpeg" />
+    <Content Include="Content\Images\Front Page\pexels-photo-164924.jpeg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-101.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-107.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-14.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-18.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-211.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-280.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-281.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-282.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-283.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-284.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-285.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-286.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-291.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-293.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-295.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-468.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-503.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-618.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-627.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-628.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-629.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-630.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-631.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-632.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-634.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-636.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-637.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-638.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-639.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-640.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-641.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-642.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-643.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-644.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-645.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-646.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-647.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-818.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-820.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-822.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-824.jpg" />
+    <Content Include="Content\Images\Wedding Pics\cj_erik__websize-826.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-101.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-107.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-14.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-18.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-211.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-277.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-278.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-280.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-281.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-282.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-283.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-284.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-285.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-286.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-291.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-293.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-295.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-468.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-503.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-618.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-626.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-627.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-628.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-629.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-630.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-631.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-632.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-634.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-636.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-637.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-638.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-639.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-640.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-641.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-642.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-643.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-644.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-645.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-646.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-647.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-648.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-818.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-820.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-822.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-824.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\cj_erik__websize-826.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\zcj_erik__websize-168.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\zcj_erik__websize-24.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\zcj_erik__websize-27.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\zcj_erik__websize-279.jpg" />
+    <Content Include="Content\Images\Wedding Pics\Thumbnails\zcj_erik__websize-29.jpg" />
+    <Content Include="Content\Images\Wedding Pics\zcj_erik__websize-168.jpg" />
+    <Content Include="Content\Images\Wedding Pics\zcj_erik__websize-24.jpg" />
+    <Content Include="Content\Images\Wedding Pics\zcj_erik__websize-27.jpg" />
+    <Content Include="Content\Images\Wedding Pics\zcj_erik__websize-279.jpg" />
+    <Content Include="Content\Images\Wedding Pics\zcj_erik__websize-29.jpg" />
+    <Content Include="Content\Video\styled-shoot-video.mp4" />
+    <Content Include="errors.htm" />
+    <Content Include="favicon-16x16.png" />
+    <Content Include="favicon-32x32.png" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="mstile-150x150.png" />
+    <Content Include="Robots.txt" />
+    <Content Include="rss.xml" />
+    <Content Include="safari-pinned-tab.svg" />
+    <Content Include="Content\ajax-loader.gif" />
+    <Content Include="Content\fonts\slick.svg" />
+    <Content Include="Scripts\App\get-instagram-photos.js" />
+    <Content Include="Scripts\App\slick-config.js" />
+    <Content Include="Content\slick-theme.css" />
+    <Content Include="Content\slick.css" />
+    <Content Include="Scripts\App\slick.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="manifest.json" />
+    <Content Include="Content\Video\styled-shoot-video.ogg" />
+    <None Include="Properties\PublishProfiles\ChiMassageTucson - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\ChiMassageTucson - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\datstaging - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\datstaging - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\PlanSimplyByCJ - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\PlanSimplyByCJ - Web Deploy.pubxml" />
+    <Content Include="rss.xml.gz" />
+    <None Include="Properties\PublishProfiles\Staging.pubxml" />
+    <Content Include="Scripts\App\config.rb" />
+    <Content Include="Scripts\App\slick-theme.less" />
+    <Content Include="Content\fonts\slick.eot" />
+    <Content Include="Content\fonts\slick.ttf" />
+    <Content Include="Content\fonts\slick.woff" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="sitemap.htm" />
+    <Content Include="sitemap.txt" />
+    <Content Include="sitemap.xml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_SecondaryLayout.cshtml" />
+    <Content Include="Views\Wedding\About.cshtml" />
+    <Content Include="Views\Wedding\Gallery.cshtml" />
+    <Content Include="Views\Wedding\Home.cshtml" />
+    <Content Include="Views\Wedding\Services.cshtml" />
+    <Content Include="Views\Wedding\UpcomingClasses.cshtml" />
+    <Content Include="sitemap.xml.gz" />
+    <Content Include="Views\Wedding\GalleryAlbum.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Views\DIY_Wedding\" />
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50833</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50813/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.0.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.0.1\build\Microsoft.Net.Compilers.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

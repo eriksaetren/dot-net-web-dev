@@ -1,0 +1,43 @@
+﻿#bioText {
+        font-family: 'Century Schoolbook';
+        line-height: 1.5em;
+    }
+
+    .aboutText {
+        font-family: 'Century Schoolbook';
+        line-height: 1.5em;
+        margin-top:0;
+    }
+
+    #launchHeader {
+        margin-top:0px;
+    }
+
+    .flowerBorder {
+        width:100%;
+        max-height:8em;
+    }
+
+    #profileImage {
+        border-radius: 25px;
+        max-height: 20em;
+        display:table;
+        margin: 0 auto;
+    }
+
+    #socialMedias {
+        /*padding-top: 4em;*/
+        display:table;
+        margin: 0 auto;
+    }
+
+    #buttonRow {
+        display:table;
+        margin: 0 auto;
+        padding-bottom:1em;
+    }
+
+    #about-hero {
+        width: 100%;
+        max-height: 30em;
+    }

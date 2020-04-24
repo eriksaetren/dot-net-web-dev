@@ -1,0 +1,251 @@
+﻿
+@model PlanSimplyByCJ.Models.EmailForm
+
+@Scripts.Render("~/bundles/jquery")
+
+@{
+    ViewBag.Title = "Contact";
+    ViewBag.Description = "Get to know CJ and how PlanSimply can help you achieve your dream wedding. Call or email today to set up an appointment.";
+    Layout = "~/Views/Shared/_SecondaryLayout.cshtml";
+
+    
+}
+
+<script type="text/javascript">
+    function alertSuccess() {
+        $(document).ready(function () {
+            $("#successAlert").removeAttr("Hidden");
+        });
+    }
+
+    function alertDanger() {
+        $(document).ready(function () {
+            $("#dangerAlert").removeAttr("hidden");
+        });
+    }
+</script>
+
+@if (ViewBag.Success == true)
+{
+    <script type="text/javascript">
+        alertSuccess();
+    </script>
+}
+else if (ViewBag.Success == false)
+{
+    <script type="text/javascript">
+        alertDanger();
+    </script>
+}
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="~/Content/AboutStyles.css" />
+<br />
+<br />
+<br />
+<br />
+
+
+
+<div class="container">
+    <div id="successAlert" hidden="hidden" class="alert alert-success alert-dismissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> @ViewBag.Message
+    </div>
+    <div id="dangerAlert" hidden="hidden" class="alert alert-success alert-dismissable">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Oops! Something went wrong :</strong> @ViewBag.Error
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <img class="img img-responsive flowerBorder" src="~/Content/Images/ClipArt/Flowers3002-copy - Copy.png"/>
+        </div>
+        <div class="col-xs-6">
+            <img class="img img-responsive flowerBorder" src="~/Content/Images/ClipArt/Flowers3002-copy.png" />
+        </div>
+    </div>
+
+    <br />
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <script src='//www.weddingwire.com/assets/vendor/widgets/my-reviews.js' type='application/javascript'></script>
+
+            <br />
+            <div class='ww-reset ww-reviews-widget' id='ww-widget-reviews'>
+                <div class='ww-reviews-placeholder'>
+                    Read all of our wedding reviews on our
+                    <a target="_blank" href="https://www.weddingwire.com/biz/plansimply-by-cj-tucson/01207fe3ace56abc.html">PlanSimply By CJ</a>
+                    Storefront at
+                    <a alt="WeddingWire" href="https://www.weddingwire.com">
+                        <img src="//www.weddingwire.com/assets/widgets/logo/WWlogo-83x19.gif" alt="Wwlogo 83x19" />
+                    </a>
+                </div>
+            </div>
+            <script>
+                WeddingWire.createReview({"vendorId":"01207fe3ace56abc", "id":"ww-widget-reviews" });
+            </script>
+        </div>
+
+        <div class="col-md-6">
+            <br />
+            <h2 class="aboutText headerText">Contact CJ</h2>
+            <h4 class="aboutText">I would love to hear from you! Email or post on our wall.</h4>
+            <div id="" class="row">
+                <div class="col-xs-1">
+                    <a class="fa fa-pinterest-square" style="font-size: 2em" target="_blank" href="https://www.pinterest.com/saetrenc/"></a>
+                </div>
+                <div class="col-xs-1">
+                    <a class="fa fa-facebook-square" style="font-size: 2em" target="_blank" href="https://www.facebook.com/plansimplybycj/"></a>
+                </div>
+                <div class="col-xs-1">
+                    <a class="fa fa-instagram" style="font-size: 2em" target="_blank" href="https://www.instagram.com/plansimplybycj/"></a>
+                </div>
+                <div class="col-xs-1">
+                    <a class="glyphicon glyphicon-envelope" style="font-size: 2em" target="_blank" href="mailto:plansimplybycj@gmail.com"></a>
+                </div>
+                <div class="col-xs-8"></div>
+            </div>
+            <br />
+            <address class="aboutText" style="font-size:1.2em">
+                <strong>Email:</strong> <a href="mailto:plansimplybycj@gmail.com">PlanSimplybyCJ@gmail.com</a>
+                <br />
+                <strong>Phone:</strong> <a href="tel:5202040994">520-204-0994</a>
+            </address>
+            <br />
+
+            <div id="contactForm" class="">
+                @using (Html.BeginForm())
+            {
+                    @Html.AntiForgeryToken()
+                    <br />
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.name, new { @class = "col-xs-3 control-label" })
+                            <div class="col-xs-9">
+                                @Html.TextBoxFor(m => m.name, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.name)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.LabelFor(m => m.email, new { @class = "col-xs-3 control-label" })
+                            <div class="col-xs-9">
+                                @Html.TextBoxFor(m => m.email, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.email)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            @Html.Label("Your Message:", new { @class = "col-xs-3 control-label", @for = "message" })
+                            <div class="col-xs-9">
+                                @Html.TextAreaFor(m => m.message, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.message)
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-xs-offset-3 col-xs-9">
+                                <button type="submit" class="btn btn-default">Send</button>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div class="row">
+        <div class="col-md-10">
+            <h2>About CJ &amp; PlanSimply</h2>
+            <h4 class="aboutText">
+                For as long as I can remember, I have loved weddings. There is something so romantic and magical about every wedding, 
+                whether it be a simple courthouse wedding or a 200-person black tie affair. During my year plus planning my own dream wedding, 
+                I studied wedding planning techniques and learned a lot about the industry. As a project manager, I knew a lot about organizing people, deadlines and budget.
+                <br/> 
+                <br />
+                During my planning process, I met many people that were overwhelmed by the amount of decisions that needed to be made in their own wedding. 
+                Quickly, I realized my natural ability as a good organizer made the wedding process easy for myself. PlanSimply is here to help you navigate 
+                the overwhelming amount of wedding information out there, and make your day unique and personal.
+                <br/>
+                <br />
+                I founded PlanSimply to make wedding planning simpler for you. I wanted to offer several packages so that you can choose the service that fits your needs.
+                 I have two paths you can take - <a href="/wedding/upcomingclasses">DIY</a> or <a href="/wedding/services">hired help</a>.
+                If you want to organize the wedding yourself, but need help getting started, there are classes to teach you how to plan. 
+                These break the planning into manageable steps, starting with the inspiration and ending with day of details, I will walk you through what is needed to plan a wedding. After the classes, you will have the tools including a budget made in excel, and take home worksheets to complete with your partner.
+                <br />
+                <br />
+                If you'd rather sit back and relax during your engagement, I am happy to take the reins as a full service planner. Then we offer many packages between these two extremes.
+               
+
+            </h4>
+        </div>
+        
+        <div class="col-md-2">
+            <img id="profileImage" class="img img-responsive" src="~/Content/Images/Profile/cj_profile-25.jpg" />
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        
+    </div>
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-xs-11">
+            <div id="socialMedias" class="col-md-7">
+                
+                <!--<h4 class="text-center aboutText">I would love to hear from you! Email or post on our wall.</h4>
+                <div id="buttonRow" class="row">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-2">
+                        <a class="fa fa-pinterest-square" style="font-size: 2em" target="_blank" href="https://www.pinterest.com/saetrenc/"></a>
+                    </div>
+                    <div class="col-xs-2">
+                        <a class="fa fa-facebook-square" style="font-size: 2em" target="_blank" href="https://www.facebook.com/plansimplybycj/"></a>
+                    </div>
+                    <div class="col-xs-2">
+                        <a class="fa fa-instagram" style="font-size: 2em" target="_blank" href="https://www.instagram.com/plansimplybycj/"></a>
+                    </div>
+                    <div class="col-xs-2">
+                        <a class="glyphicon glyphicon-envelope" style="font-size: 2em" target="_blank" href="mailto:plansimplybycj@gmail.com"></a>
+                    </div>
+                    <div class="col-xs-2"></div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <address class="aboutText" style="font-size:1.2em">
+                    <strong>Email:</strong> <a href="mailto:plansimplybjcj@gmail.com">PlanSimplybyCJ@gmail.com</a>
+                    <br />
+                    <strong>Phone:</strong> <a href="tel:5202040994">520-204-0994</a>
+                </address>
+            </div>
+                    -->
+        </div>
+                    
+    </div>
+    
+
+    <br />
+    
+
+    <br />
+
+    <div class="row">
+        <div class="col-xs-6">
+            <img class="img img-responsive flowerBorder" src="~/Content/Images/ClipArt/Flowers3002-copy - Copy.png" />
+        </div>
+        <div class="col-xs-6">
+            <img class="img img-responsive flowerBorder" src="~/Content/Images/ClipArt/Flowers3002-copy.png" />
+        </div>
+    </div>
+
+
+</div>
+
+

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="PlanSimplyByCJ" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Erik\\Documents\\Visual\ Studio\ 2015\\Projects\\PlanSimplyByCJ\\Development\\PlanSimplyByCJ\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Erik\\Documents\\Visual\ Studio\ 2015\\Projects\\PlanSimplyByCJ\\Development\\PlanSimplyByCJ\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

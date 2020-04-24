@@ -1,0 +1,454 @@
+
+
+.slick-container {
+	background: linear-gradient(to bottom, rgba(182,174,232,0.42) 0%,rgba(182,174,232,0.8) 3%,rgba(182,174,232,1) 19%,rgba(182,174,232,1) 20%,rgba(201,198,239,1) 50%,rgba(181,172,232,1) 81%,rgba(180,171,232,0.99) 82%,rgba(180,171,232,0.8) 98%,rgba(180,171,232,0.44) 100%);
+	padding: 0 40px !important;
+	
+	.instaText {
+		h3 {
+			text-align: center;
+			color: white;
+			text-transform: capitalize;
+			font-family: 'Kaushan Script', cursive;
+		}
+		
+		@media screen and (max-width: 768px){
+			h3 {
+				font-size: 4vw;
+			}
+		}
+		
+		@media screen and (max-width: 480px){
+			h3 {
+				font-size: 8vw;
+			}
+		}
+	}
+
+	.slick-main {
+		padding-bottom: 2em;
+		
+		.slick-slide {
+			margin: 0;
+			
+			&:focus {
+				outline: none;
+			}
+			
+			
+			a {
+				display: inline-block; 
+				position: relative;
+				left: 50%;
+				transform: translateX(-50%);
+				border-radius: 5px;
+				overflow: hidden;
+				
+				&:focus {
+					outline: none;
+				}
+				
+				
+				.slide-img {
+					height: 15vw;
+					max-width: 100%;
+				}
+				
+				.slide-infoBox {
+					max-height: calc(100% - 8px);
+					width: calc(100% - 8px);
+					left: 4px;
+					background: rgba(0, 0, 0, 0.7);
+					overflow: auto;
+					position: absolute;
+					bottom: -150px;
+					opacity: 0;
+					z-index: 999;
+					transition: opacity 1s, bottom 1s;
+					color: white;
+					
+				
+					.slide-caption {
+						text-align: center;
+						font-size: 0.8vw;
+						padding: 0 1em;
+						
+					}
+					
+					.closeInfo {
+						position: fixed;
+						bottom: 0;
+						right: 0;
+						height: 2vw;
+						width: 100%;
+						z-index: 2000;
+						background-color: rgba(255,255,255, 0.3);
+						
+						i {
+							position: absolute;
+							left: 50%;
+							transform: translateX(-50%);
+							bottom: 0;
+							font-size: 4vw;
+							height: 0;
+							width: 0;
+							color: white;
+							
+							&:before {
+								position: absolute;
+								bottom: 1vw;
+								right: -2vw;
+								height: 2vw;
+								width: 3vw;
+							}
+						}
+					}
+				}
+				
+				.openInfo {
+					display: none;
+					position: absolute;
+					bottom: 0;
+					right: 0;
+					height: 2vw;
+					z-index: 2000;
+					width: 100%;
+					background-color: rgba(255,255,255, 0.3);
+					
+					i {
+						position: absolute;
+						left: 50%;
+						transform: translateX(-50%);
+						bottom: 0;
+						font-size: 4vw;
+						height: 0;
+						width: 0;
+						color: white;
+						
+						&:before {
+							position: absolute;
+							bottom: 1.2vw;
+							right: -1.9vw;
+							height: 2vw;
+							width: 3vw;
+						}
+					}
+				}
+				
+				
+			}
+		}
+		@media screen and (max-width: 1400px){
+			.slick-slide {
+				
+				a {
+					
+					.slide-img {
+						height: 18vw;
+					}
+					
+					.slide-infoBox {
+					
+						.slide-caption {
+							font-size: 1.1vw;
+						}
+					}
+				}
+			}
+		}
+		
+		
+		// Greater than 1024px: 
+		@media screen and (min-width: 1025px){
+			.slick-slide {				
+				&:hover {
+					.slide-infoBox {
+						bottom: 4px;
+						opacity: 1;
+					}
+				}
+			}
+			
+		
+		}
+		
+		@media screen and (max-width: 1024px){
+			.slick-slide {
+				
+				a {
+					
+					.slide-img {
+						height: 25vw;
+					}
+					
+					.openInfo {
+						display: block;
+						position: absolute;
+						bottom: 0;
+						right: 0;
+						height: 4vw;
+						z-index: 2000;
+						width: 100%;
+						background-color: rgba(255,255,255, 0.3);
+						
+						i {
+							position: absolute;
+							left: 50%;
+							transform: translateX(-50%);
+							bottom: 0;
+							font-size: 6vw;
+							height: 0;
+							width: 0;
+							color: white;
+							text-shadow: 1px 1px 4px black;
+							
+							&:before {
+								position: absolute;
+								bottom: 3.5vw;
+								right: -1.5vw;
+								height: 2vw;
+								width: 3vw;
+							}
+						}
+					}
+					
+					.slide-infoBox {
+						max-height: calc((100% - 4vw) - 4px);
+						width: calc(100% - 8px);
+						left: 4px;
+						background: rgba(0, 0, 0, 0.7);
+						overflow: auto;
+						position: absolute;
+						bottom: -150px;
+						opacity: 0;
+						z-index: 999;
+						transition: opacity 1s, bottom 1s;
+						color: white;
+						
+					
+						.slide-caption {
+							text-align: center;
+							font-size: 1.6vw;
+						}
+						
+						.closeInfo {
+							position: fixed;
+							bottom: 0;
+							right: 0;
+							height: 4vw;
+							width: 100%;
+							z-index: 2000;
+							background-color: rgba(255,255,255, 0.3);
+							
+							i {
+								position: absolute;
+								left: 50%;
+								transform: translateX(-50%);
+								bottom: 0;
+								font-size: 6vw;
+								height: 0;
+								width: 0;
+								color: white;
+								text-shadow: 1px 1px 4px black;
+								
+								&:before {
+									position: absolute;
+									bottom: 3.5vw;
+									right: -1vw;
+									height: 2vw;
+									width: 3vw;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		
+		@media screen and (max-width: 768px){
+			.slick-slide {
+				
+				a {
+					
+					.slide-img {
+						height: calc(100vw / 2.5);
+					}
+					
+					.openInfo {
+						display: block;
+						position: absolute;
+						bottom: 0;
+						right: 0;
+						height: 6vw;
+						z-index: 2000;
+						width: 100%;
+						background-color: rgba(255,255,255, 0.3);
+						
+						i {
+							position: absolute;
+							left: 50%;
+							transform: translateX(-50%);
+							bottom: 0;
+							font-size: 10vw;
+							height: 0;
+							width: 0;
+							color: white;
+							text-shadow: 1px 1px 4px black;
+							
+							&:before {
+								position: absolute;
+								bottom: 6.5vw;
+								right: -1vw;
+								height: 2vw;
+								width: 3vw;
+							}
+						}
+					}
+					
+					.slide-infoBox {
+						max-height: calc((100% - 6vw) - 4px);
+						width: calc(100% - 8px);
+						left: 4px;
+						background: rgba(0, 0, 0, 0.7);
+						overflow: auto;
+						position: absolute;
+						bottom: -150px;
+						opacity: 0;
+						z-index: 999;
+						transition: opacity 1s, bottom 1s;
+						color: white;
+						
+					
+						.slide-caption {
+							text-align: center;
+							font-size: 2.4vw;
+						}
+						
+						.closeInfo {
+							position: fixed;
+							bottom: 0;
+							right: 0;
+							height: 6vw;
+							width: 100%;
+							z-index: 2000;
+							background-color: rgba(255,255,255, 0.3);
+							
+							i {
+								position: absolute;
+								left: 50%;
+								transform: translateX(-50%);
+								bottom: 0;
+								font-size: 10vw;
+								height: 0;
+								width: 0;
+								color: white;
+								text-shadow: 1px 1px 4px black;
+								
+								&:before {
+									position: absolute;
+									bottom: 6.5vw;
+									right: -1vw;
+									height: 2vw;
+									width: 3vw;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		@media screen and (max-width: 480px){
+			.slick-slide {
+				
+				a {
+					
+					.slide-img {
+						height: 75vw;
+					}
+					
+					.openInfo {
+						position: absolute;
+						bottom: 0;
+						right: 0;
+						height: 10vw;
+						z-index: 2000;
+						width: 100%;
+						background-color: rgba(255,255,255, 0.3);
+						
+						i {
+							position: absolute;
+							left: 50%;
+							transform: translateX(-50%);
+							bottom: 0;
+							font-size: 12vw;
+							height: 0;
+							width: 0;
+							color: white;
+							text-shadow: 1px 1px 4px black;
+							
+							&:before {
+								position: absolute;
+								bottom: 10.5vw;
+								right: -1vw;
+								height: 2vw;
+								width: 3vw;
+							}
+						}
+					}
+					
+					.slide-infoBox {
+						max-height: calc((100% - 10vw) - 4px);
+						width: calc(100% - 8px);
+						left: 4px;
+						background: rgba(0, 0, 0, 0.7);
+						overflow: auto;
+						position: absolute;
+						bottom: -150px;
+						opacity: 0;
+						z-index: 999;
+						transition: opacity 1s, bottom 1s;
+						color: white;
+						
+					
+						.slide-caption {
+							text-align: center;
+							font-size: 4.25vw;
+						}
+						
+						.closeInfo {
+							position: fixed;
+							bottom: 0;
+							right: 0;
+							height: 10vw;
+							width: 100%;
+							z-index: 2000;
+							background-color: rgba(255,255,255, 0.3);
+							
+							i {
+								position: absolute;
+								left: 50%;
+								transform: translateX(-50%);
+								bottom: 0;
+								font-size: 12vw;
+								height: 0;
+								width: 0;
+								color: white;
+								text-shadow: 1px 1px 4px black;
+								
+								&:before {
+									position: absolute;
+									bottom: 10.5vw;
+									right: -1vw;
+									height: 2vw;
+									width: 3vw;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,154 @@
+﻿@model PlanSimplyByCJ.Models.GalleryModel
+
+@Scripts.Render("~/bundles/jquery")
+
+@{
+    ViewBag.Title = Model.title;
+    ViewBag.Description = "Plan Simply Tucson Arizona Wedding Photography " + Model.descriptions;
+    Layout = "~/Views/Shared/_SecondaryLayout.cshtml";
+}
+<style>
+    .footLink, .accreditText, #devText {
+        color: white;
+    }
+</style>
+
+
+
+<link rel="stylesheet" href="~/Content/GalleryStyles.css" />
+
+
+<script>
+        function openModal() {
+            document.getElementById('myModal').style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById('myModal').style.display = "none";
+        }
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            //var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            /*for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }*/
+            slides[slideIndex - 1].style.display = "block";
+            //dots[slideIndex - 1].className += " active";
+            //captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+
+        function setCaption() {
+            var captionText = document.getElementById("caption");
+            var newText = document.getElementById(slideIndex).alt;
+            captionText.innerHTML = newText;
+        }
+
+
+</script>
+
+<div class="container">
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h2 class="text-info text-center text-capitalize headerText">@Model.title</h2>
+    
+    <br />
+
+    @{var count = 0; }
+    @foreach (var thmnl in Model.thumbnails)
+    {
+        if (count % 4 == 0)
+        {
+            @:<div class="galleryRow row">
+        }
+
+        <div class="column col-md-3">
+            <img src="@thmnl"
+                 onclick="openModal();currentSlide(@(count + 1));setCaption();"
+                 class="img img-responsive img-thumbnail hover-shadow thbnl" />
+        </div>
+
+        if ((count + 1) % 4 == 0)
+        {
+            @:</div>
+        
+        }
+
+        count++;
+    }
+
+
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            @for(var i = 0; i < Model.fileNames.Count(); i++)
+            {
+                <div class="mySlides">
+                    <div class="numbertext">@(i + 1) / @Model.fileNames.Count()</div>
+                    <img onclick="plusSlides(1);" id="@(i + 1)" src="@Model.fileNames.ElementAt(i)" alt="@Model.captions.ElementAt(i)" class="img img-responsive slide">
+                </div>
+            }
+
+            <a class="prev" onclick="plusSlides(-1); setCaption();">&#10094;</a>
+            <a class="next" onclick="plusSlides(1); setCaption();">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            @* <-- ONLY REMOVE ME TO UN-COMMENT!!!!!!!!!!
+
+                @{ count = 0; }
+                @foreach (var item in Model)
+                {
+                    count++;
+                    <div class="column">
+                        <img class="demo img img-responsive" src="@item.fileName" onclick="currentSlide(@count)" alt="Wedding Photo">
+                    </div>
+                } @* end foreach *@
+
+
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            @{
+                if (Model.accredits != null)
+                {
+                    <br />
+                    foreach (KeyValuePair<string, string[]> kvPair in Model.accredits)
+                    {
+                        @* kvPair.Value[0] = Vendor Name -  Value[1] = Vendor Web Address  *@
+                        <p class="accreditText text-center">@kvPair.Key - <a href="@kvPair.Value[1]">@kvPair.Value[0]</a></p>
+                    }
+                }
+            }
+        </div>
+    </div>
+</div>
+
+
+

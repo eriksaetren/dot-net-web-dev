@@ -1,0 +1,332 @@
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\csc.exe
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\csc.exe.config
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\csc.rsp
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\csi.exe
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\csi.rsp
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\System.AppContext.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\vbc.exe
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\vbc.exe.config
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\vbc.rsp
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\VBCSCompiler.exe
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\PlanSimplyByCJ.dll.config
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\PlanSimplyByCJ.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\PlanSimplyByCJ.pdb
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Antlr3.Runtime.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Microsoft.WindowsAzure.ServiceRuntime.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Newtonsoft.Json.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Swashbuckle.Core.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.Helpers.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.Mvc.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.Optimization.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.Razor.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.WebPages.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.WebPages.Razor.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\WebActivatorEx.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\WebGrease.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\WindowsAzureEventSource.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\WindowsAzureTelemetryEvents.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Antlr3.Runtime.pdb
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\Newtonsoft.Json.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.Helpers.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.Mvc.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.Optimization.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.Razor.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.WebPages.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\bin\System.Web.WebPages.Razor.xml
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.csprojResolveAssemblyReference.cache
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.dll
+C:\Users\Erik\documents\visual studio 2015\Projects\PlanSimplyByCJ\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.pdb
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csc.exe
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csc.exe.config
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csc.rsp
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csi.exe
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csi.exe.config
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csi.rsp
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.AppContext.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Console.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.Compression.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Claims.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.ValueTuple.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\vbc.exe
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\vbc.exe.config
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\vbc.rsp
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\VBCSCompiler.exe
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\PlanSimplyByCJ.dll.config
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\PlanSimplyByCJ.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\PlanSimplyByCJ.pdb
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Antlr3.Runtime.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.WindowsAzure.ServiceRuntime.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Newtonsoft.Json.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Swashbuckle.Core.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Helpers.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Mvc.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Optimization.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Razor.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Razor.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WebActivatorEx.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WebGrease.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WindowsAzureEventSource.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WindowsAzureTelemetryEvents.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Antlr3.Runtime.pdb
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Newtonsoft.Json.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Helpers.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Mvc.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Optimization.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Razor.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Razor.xml
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.csprojResolveAssemblyReference.cache
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.dll
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.pdb
+C:\Users\Erik\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\MonAgentListener.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csc.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csc.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csc.rsp
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csi.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csi.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csi.rsp
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Console.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\vbc.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\vbc.rsp
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\PlanSimplyByCJ.dll.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\PlanSimplyByCJ.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\PlanSimplyByCJ.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.WindowsAzure.ServiceRuntime.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Swashbuckle.Core.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Helpers.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Mvc.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Optimization.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Razor.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WebActivatorEx.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WebGrease.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WindowsAzureEventSource.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WindowsAzureTelemetryEvents.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\MonAgentListener.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Helpers.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Mvc.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Optimization.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Razor.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.dll
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\PlanSimplyByCJ\Development\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.pdb
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csc.exe
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csc.exe.config
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csc.rsp
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csi.exe
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csi.exe.config
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\csi.rsp
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.CSharp.Core.targets
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\Microsoft.Win32.Primitives.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.AppContext.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Collections.Immutable.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Console.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.Process.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Diagnostics.StackTrace.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.Compression.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.FileSystem.Primitives.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.IO.Pipes.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Reflection.Metadata.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.AccessControl.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Claims.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.Encoding.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.Primitives.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Security.Principal.Windows.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Text.Encoding.CodePages.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Threading.Thread.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.ValueTuple.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.ReaderWriter.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.XmlDocument.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.XPath.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\System.Xml.XPath.XDocument.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\vbc.exe
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\vbc.exe.config
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\vbc.rsp
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\VBCSCompiler.exe
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\roslyn\VBCSCompiler.exe.config
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\PlanSimplyByCJ.dll.config
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\PlanSimplyByCJ.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\PlanSimplyByCJ.pdb
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Antlr3.Runtime.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Logging.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Tokens.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.Web.Infrastructure.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.WindowsAzure.Diagnostics.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.WindowsAzure.ServiceRuntime.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Newtonsoft.Json.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Swashbuckle.Core.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.IdentityModel.Tokens.Jwt.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Helpers.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Mvc.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Optimization.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Razor.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Deployment.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Razor.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WebActivatorEx.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WebGrease.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WindowsAzureEventSource.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\WindowsAzureTelemetryEvents.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Antlr3.Runtime.pdb
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Microsoft.IdentityModel.Tokens.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\Newtonsoft.Json.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.IdentityModel.Tokens.Jwt.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Helpers.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Mvc.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Optimization.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.Razor.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Deployment.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\bin\System.Web.WebPages.Razor.xml
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.csprojResolveAssemblyReference.cache
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.dll
+A:\Erik\wwwroot\PlanSimplyByCJ\Development\PlanSimplyByCJ\obj\Release\PlanSimplyByCJ.pdb
